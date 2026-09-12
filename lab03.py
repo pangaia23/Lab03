@@ -42,4 +42,4 @@ def start_chat():
     channel.send("$$STOP".encode('utf_8'))
     print("FINISHED")
 
-    start_chat()
+start_chat()
